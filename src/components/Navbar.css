@@ -1,108 +1,108 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(243, 202, 127) 0%, rgb(240, 210, 75) 100%);
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    max-width: 1500px;
-  }
-  
-  .navbar-logo {
-    color: rgb(15, 15, 15);
-    justify-self: start;
-    margin-left: 20vh;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    size: 22px;
-    display: flex;
-    align-items: center;
+  background: linear-gradient(90deg, rgb(243, 202, 127) 0%, rgb(240, 210, 75) 100%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 
-    font-family: 'Lobster';
-  }
-  
-  
-  .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: right;
-    margin-left: 5px;
-  }
-  
-  .nav-item {
-    height: 80px;
-  }
-  
-  .nav-links {
-    color: rgb(114, 58, 6);
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-  }
-  
-  .nav-links:hover {
-    border-bottom: 4px solid rgb(114, 58, 6);
-    transition: all 0.2s ease-out;
-  }
-  
-  .nav-links-mobile {
-    display: none;
-  }
-  .nav-menu2 {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: right;
-    margin-right: 2rem;
-  }
-  
-  .nav-item2 {
-    height: 80px;
-    font-size: 3vh;
-  }
-  .nav-links2 {
-    color: rgb(114, 58, 6);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-self: right;
-    margin-left: 5px;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-  }
-  .nav-links2:hover {
-    transition: all 0.2s ease-out;
-  }
-  .menu-icon {
-    display: none;
-  }
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
 
-  .fa-shopping-cart {
-      color:rgb(15, 15, 15);
-  }
+.navbar-logo {
+  color: rgb(15, 15, 15);
+  justify-self: start;
+  margin-left: 20vh;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  size: 22px;
+  display: flex;
+  align-items: center;
+  font-family: 'Lobster';
+}
 
-  .fa-user-circle {
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: right;
+  margin-left: 5px;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: rgb(114, 58, 6);
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid rgb(114, 58, 6);
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+.nav-menu2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: right;
+  margin-right: 2rem;
+}
+
+.nav-item2 {
+  height: 80px;
+  font-size: 3vh;
+}
+.nav-links2 {
+  color: rgb(114, 58, 6);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-self: right;
+  margin-left: 5px;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.nav-links2:hover {
+  transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.fa-shopping-cart {
     color:rgb(15, 15, 15);
-  }
+}
+
+.fa-user-circle {
+  color:rgb(15, 15, 15);
+}

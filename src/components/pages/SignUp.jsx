@@ -2,11 +2,12 @@ import React from 'react';
 import '../../App.css';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './SignUp.css';
+
 function SignUp() {
   return (
     <div className='signup'>
-  <h1 className='signup'>Sign Up</h1>
-  <Form>
+    <h1 className='signup'>Sign Up</h1>
+    <Form>
       <FormGroup className="signup-form">
         <Label for="exampleEmail">Email </Label>
         <Input type="email" name="email" id="exampleEmail" placeholder="Enter Email" />
@@ -21,7 +22,6 @@ function SignUp() {
       </FormGroup>
       <Button className="signup-button">Submit</Button>
     </Form>
-    
     </div>
   );
 }

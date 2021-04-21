@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,9 +9,7 @@ function HeroSection() {
       <h1 className="firstline">We Can Customize</h1>
       <h1 className="secondline">It For You</h1>
       <p className="here-subtitle">BRIDGE THAT GAP WITH SmartFit FASHION</p>
-      <div className='hero-btns'>
-        
-         
+      <div className='hero-btns'>  
       </div>
     </div>
   );

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
-
   return (
     <>
       <nav className='navbar'>
@@ -54,9 +53,7 @@ function Navbar() {
                 <i class="fa fa-user-circle" aria-hidden="true"></i>
               </Link>
             </li>
-            
           </ul>
-          
         </div>
       </nav>
     </>
